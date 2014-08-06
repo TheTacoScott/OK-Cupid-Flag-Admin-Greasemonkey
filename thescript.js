@@ -46,6 +46,7 @@ if ( window.addEventListener ) {
                    GM_openInTab(url);
               }           
               if (e.keyCode ==  87){GM_openInTab($('a[href*="https://services.okcupid.com/admin/superadmin?uid="]').attr('href'));}      
+              if (e.keyCode ==  69){GM_openInTab($('a[href*="https://services.okcupid.com/admin/spammeradmin?show_auto_approve=1&senderid="]').attr('href'));}      
 
        }, true);
 }
