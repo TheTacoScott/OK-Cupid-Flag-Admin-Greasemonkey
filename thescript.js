@@ -4,7 +4,7 @@
 // @include        https://services.okcupid.com/flagmod*
 // @exclude        /.google.com./
 // @require        https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-// @version     14
+// @version     15
 // @grant   GM_openInTab
 
 // ==/UserScript==
